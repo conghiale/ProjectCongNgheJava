@@ -1,0 +1,31 @@
+.detaild_product_wrapper {
+    padding: 70px 200px;
+    .detailBook_image {
+        padding: 0 30px;
+        img {
+            width: 100%;
+        }
+    }
+    .detailBook_detail {
+        padding: 0 30px;
+        & > * {
+            margin-top: 20px;
+        }
+        td {
+            height: 40px;
+            span {
+                font-weight: 600;
+            }
+        }
+        .detail_product_price {
+            color: red;
+            font-weight: 600;
+        }
+    }
+    @media (max-width: 1200px) {
+        padding: 70px 100px;
+    }
+    @media (max-width: 992px) {
+        padding: 70px 0px;
+    }
+}
